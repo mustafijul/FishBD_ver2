@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="16dp">
 
     <!-- Header TextView -->
@@ -65,15 +66,9 @@
         android:textSize="16sp"
         android:enabled="false" />
 
-    <!-- Product Image -->
-    <ImageView
-        android:id="@+id/image_view_product"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
-        android:layout_marginTop="16dp" />
 
-    <!-- Select Image Button -->
+
+
 
 
     <!-- Horizontal layout for side-by-side buttons -->
