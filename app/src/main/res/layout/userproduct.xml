@@ -1,0 +1,50 @@
+<!-- list_item_product.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/image_view_product2"
+        android:layout_marginLeft="250dp"
+        android:layout_width="200dp"
+        android:layout_height="189dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image2" />
+
+
+        <TextView
+
+            android:id="@+id/text_view_product_name2"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_product_price2"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/text_view_product_quantity2"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_user_image2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy Now"
+        android:background="#E91E63"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
