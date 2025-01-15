@@ -8,13 +8,14 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity"
-    android:background="@drawable/image1">
+    android:background="@drawable/back_login">
 
     <TextView
         android:id="@+id/loginTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="login!"
+        android:textColor="#ffff"
         android:textSize="30sp"
         android:textStyle="bold"/>
 
