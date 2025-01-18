@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         btnRegister.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
             startActivity(intent);
-            Toast.makeText(MainActivity.this, "Registered clicked", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Register clicked", Toast.LENGTH_SHORT).show();
 
 
         });

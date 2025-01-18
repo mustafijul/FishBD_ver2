@@ -37,7 +37,8 @@ public class RegisterActivity extends AppCompatActivity {
             String mobile = etMobile.getText().toString();
 
             if (password.equals(confirmPassword) && !password.isEmpty() && !username.isEmpty()){
-                Toast.makeText(RegisterActivity.this, "well done! Let me insert your info in DB!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(RegisterActivity.this, "well done! Let me insert your info in DB!",
+                        Toast.LENGTH_SHORT).show();
                 //connection with DB
                 DataBaseHelper dbHelper = new DataBaseHelper(RegisterActivity.this);
 
@@ -51,7 +52,8 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(RegisterActivity.this, "Registration failed", Toast.LENGTH_SHORT).show();
                 }
             } else {
-                Toast.makeText(RegisterActivity.this, "Passwords do not match or empty password or empty username!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(RegisterActivity.this, "Passwords do not match or empty password or " +
+                        "empty username!", Toast.LENGTH_SHORT).show();
 
             }
 
@@ -71,4 +73,3 @@ public class RegisterActivity extends AppCompatActivity {
 
 }
 
-//Learn then convert L to E}

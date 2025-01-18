@@ -90,6 +90,6 @@ public class InsertProductActivity extends AppCompatActivity {
         }
 
         databaseHelper.insertProduct(name, price, quantity, imageByteArray);
-        Toast.makeText(this, "Product inserted successfully", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "Product inserted successfully", Toast.LENGTH_SHORT).show();
     }
 }
