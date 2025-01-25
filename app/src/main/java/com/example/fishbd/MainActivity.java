@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
             startActivity(intent);
             Toast.makeText(MainActivity.this, "Register clicked", Toast.LENGTH_SHORT).show();
-
-
         });
 
         btnLogin.setOnClickListener(v -> {
